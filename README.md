@@ -8,18 +8,8 @@ case study'sinin teslimidir.
 | Case dokümanı (orijinal) | [`Study-Case-Onay-Akisi-Motoru.docx`](Study-Case-Onay-Akisi-Motoru.docx) |
 | A. Tasarım dokümanı | [`tasarim-dokumani_1.docx`](tasarim-dokumani_1.docx) |
 | B. Kararlar ve Varsayımlar tablosu | [`Kararlar ve Varsayımlar Tablosu.docx`](Kararlar%20ve%20Varsayımlar%20Tablosu.docx) |
-| C. Kod — çekirdek + testler | [`onay-motoru-kod/`](onay-motoru-kod/) (aşağıda) |
+| C. Kod — çekirdek + testler | [`onay-motoru-kod/`](onay-motoru-kod/) |
 | AI kullanımı açıklaması | [`AI Kullanımı.docx`](AI%20Kullanımı.docx) |
 
----
-
-## Kod — çalıştırma
-
-Satın alma talebi onay zincirini hesaplayan çekirdek motor (case study, Bölüm 5-C).
-Bağımlılık yok — yalnızca Node.js 18+ (built-in `node:test` kullanılıyor).
-
-```bash
-cd onay-motoru-kod
-npm start        # 6 senaryoyu terminale yazdırır
-npm test         # tüm testleri çalıştırır (16 assertion, 6 senaryo)
-```
+Kodun nasıl çalıştırılacağı ve mimari kararlar için
+[`onay-motoru-kod/README.md`](onay-motoru-kod/README.md) dosyasına bakınız.
