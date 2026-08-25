@@ -1,0 +1,16 @@
+{
+  "name": "onay-akisi-motoru",
+  "version": "1.0.0",
+  "description": "Satın alma talebi onay akışı karar motoru — çekirdek (case study)",
+  "main": "src/index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
