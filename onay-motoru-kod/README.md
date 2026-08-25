@@ -1,4 +1,4 @@
-# Onay Akışı Motoru
+# Onay Akışı Motoru — Kod
 
 Satın alma talebi onay zincirini hesaplayan çekirdek motor (case study, Bölüm 5-C).
 Bağımlılık yok — yalnızca Node.js 18+ (built-in `node:test` kullanılıyor).
@@ -50,12 +50,3 @@ edilmez. Özet:
 - **Eskalasyon (R4)** ayrı bir modülde (`eskalasyon.js`) tutulur çünkü
   zamana bağlıdır (bir "kontrol tarihi" ister); çekirdek zincir hesaplama
   fonksiyonunu zaman bilgisine bağımlı hâle getirmez.
-
-## Bilinen sınırlar (kapsam dışı)
-
-- Resmi tatil takvimi yok; "iş günü" yalnızca hafta sonunu (Cmt/Paz) hariç tutar.
-- `MasrafMerkeziSahibi` ve sabit roller (FinansMüdürü, TeknolojiDirektörü,
-  CEO) versiyonlanmamıştır — yalnızca `OrganizasyonKaydi` (yönetici ilişkisi)
-  tarih aralıklıdır.
-- Bildirim/e-posta gönderimi, kimlik doğrulama, ve zamanlayıcı (cron)
-  altyapısı motorun sorumluluğunda değildir (bkz. tasarım dokümanı §4).
